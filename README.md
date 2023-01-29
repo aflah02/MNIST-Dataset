@@ -1,41 +1,15 @@
-Excerpt From the Original Website - 
+Relevant information from the [original website](http://yann.lecun.com/exdb/mnist/)
 
-## THE MNIST DATABASE of handwritten digits
-Yann LeCun, Courant Institute, NYU
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/72096386/215343782-376a9ea4-588e-46e5-a725-224806d89afb.png">
 
-Corinna Cortes, Google Labs, New York
+<img width="933" alt="image" src="https://user-images.githubusercontent.com/72096386/215343803-de2cf374-99e9-461c-a43d-6ed14c38964a.png">
 
-Christopher J.C. Burges, Microsoft Research, Redmond
- 
-The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
-It is a good database for people who want to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on preprocessing and formatting.
+<img width="941" alt="image" src="https://user-images.githubusercontent.com/72096386/215343863-c4ee1526-97c9-40c0-be93-6b179f4959fb.png">
 
-Four files are available on this site:
+<img width="934" alt="image" src="https://user-images.githubusercontent.com/72096386/215343999-62c913c7-771a-4dcf-8a4b-29865f9c0180.png">
 
-train-images-idx3-ubyte.gz:  training set images (9912422 bytes)
+<img width="938" alt="image" src="https://user-images.githubusercontent.com/72096386/215344013-fd311489-e3cb-44f4-81e2-93836bfcb19e.png">
 
-train-labels-idx1-ubyte.gz:  training set labels (28881 bytes)
+References
 
-t10k-images-idx3-ubyte.gz:   test set images (1648877 bytes)
-
-t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)
-
-## FILE FORMATS FOR THE MNIST DATABASE
-
-The data is stored in a very simple file format designed for storing vectors and multidimensional matrices. General info on this format is given at the end of this page, but you don't need to read that to use the data files.
-All the integers in the files are stored in the MSB first (high endian) format used by most non-Intel processors. Users of Intel processors and other low-endian machines must flip the bytes of the header.
-
-There are 4 files:
-
-train-images-idx3-ubyte: training set images
-
-train-labels-idx1-ubyte: training set labels
-
-t10k-images-idx3-ubyte:  test set images
-
-t10k-labels-idx1-ubyte:  test set labels
-
-The training set contains 60000 examples, and the test set 10000 examples.
-
-The first 5000 examples of the test set are taken from the original NIST training set. The last 5000 are taken from the original NIST test set. The first 5000 are cleaner and easier than the last 5000.
-
+[LeCun et al., 1998a] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. "Gradient-based learning applied to document recognition." Proceedings of the IEEE, 86(11):2278-2324, November 1998.
